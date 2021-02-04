@@ -504,7 +504,7 @@ $ssl_pay = DB::table('orders')->where('reason','order_product')->where('status',
                             @foreach ($upload_transaction as $item)
 
                                 <li class="p-2 border-bottom zoom">
-                                    <a href="{{URL::to('admin/view-money-upload-details-'.$item->id)}}">
+                                    <a href="{{URL::to('admin/view-money-upload-details-'.$item->id)}}" target="_blank">
 
                                         <div class="media d-flex w-100">
                                             <div class="transaction-date text-center rounded bg-primary text-white p-2">
