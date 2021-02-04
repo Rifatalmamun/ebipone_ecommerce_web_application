@@ -1,0 +1,72 @@
+/* gradient Template */
+.gbackground, .gradient, .gradient #header-fix, .gradient #header-fix .logo-bar, .gradient .sidebar .dropdown-menu, .gradient #settings .sidbarchat, .gradient.horizontal-menu #header-fix, .gradient.compact-menu .sidebar, .gradient .dropdown-menu {
+  background: url("../images/gradient-bg.jpg");
+  background-size: 100% auto !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+.gradient #header-fix {
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient #header-fix .logo-bar .horizontal-logo {
+  color: #fff;
+}
+
+.gradient #header-fix .logo-bar .horizontal-logo svg g {
+  fill: #fff;
+}
+
+.gradient .sidebar .dropdown-menu {
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient #settings .sidbarchat {
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient.horizontal-menu #header-fix {
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu {
+  margin-bottom: -2px;
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu > li {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu > li > a {
+  background: transparent;
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu > li.active, .gradient.horizontal-menu .sidebar .sidebar-menu > li:hover {
+  border: 1px solid var(--sidebarbordercolor);
+  border-bottom: none;
+  background: var(--primarycolor);
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu > li ul {
+  background: var(--primarycolor);
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient.compact-menu .sidebar {
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient .dropdown-menu {
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient .theme-table thead th:after, .gradient .theme-table thead td:after {
+  background: #000;
+}
+
+.gradient .theme-table tr td:after {
+  background: #000;
+}
+/*# sourceMappingURL=gradient.css.map */

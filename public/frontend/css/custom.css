@@ -1,0 +1,81 @@
+
+.shop_name{
+	font-size: 25px;
+}
+.shop_details{
+	font-size: 16px;
+}
+.cus_link_bn{
+	border-radius: 25px;
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+@media screen and (max-width: 991px) {
+	.shop_name{
+	font-size: 20px;
+}
+.shop_details{
+	font-size: 13px;
+}
+.cus_link_bn{
+
+	font-size: 13px !important;
+	line-height: 13px !important;
+}
+.shop_logo {
+     width: 140px;
+     height: 140px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+.shop_name{
+	font-size: 20px;
+	text-align: center;
+}
+.shop_details{
+	font-size: 13px;
+	text-align: center;
+}
+.cus_button_box{
+	width: 100%;
+}
+.cus_button_box .child_box{
+	width: 60%;
+	margin-left: 20%;
+}
+.cus_link_bn{
+
+	font-size: 13px !important;
+	line-height: 13px !important;
+}
+.shop_logo {
+
+     margin-left: 31%;
+  }
+
+}
+
+@media screen and (max-width: 497px) {
+.cus_button_box .child_box{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.shop_logo {
+     margin-left: 29%;
+  }
+
+}
+@media screen and (max-width: 435px) {
+.cus_button_box .child_box{
+	width: 90%;
+	margin-left: 10%;
+}
+
+.shop_logo {
+     margin-left: 25%;
+  }
+
+}

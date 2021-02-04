@@ -1,0 +1,7 @@
+/* Dark Template */
+.dark #header-fix {
+  border-bottom: 1px solid var(--bordercolor);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=dark.css.map */
