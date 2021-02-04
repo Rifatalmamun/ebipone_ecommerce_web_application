@@ -15,7 +15,7 @@
                         <span class="block-slideshow__item-offer">eBipone</span> 
                         <span class="block-slideshow__item-title">
                             Your Best Online<br />
-                            Shoping Mall
+                            Shoping Mall 
                         </span>
                         <span class="block-slideshow__item-details">
                             
@@ -36,32 +36,18 @@
                         </span>
                         <span class="block-slideshow__item-button">Register Now</span>
                     </a>
-                    <!-- 
-                    <a class="block-slideshow__item" href="#">
-                        <span class="block-slideshow__item-image block-slideshow__item-image--desktop" style="background-image: url('public/frontend/images/slides/slide-1.jpg');"></span>
-                        <span class="block-slideshow__item-image block-slideshow__item-image--mobile" style="background-image: url('public/frontend/images/slides/slide-1-mobile.jpg');"></span>
-                        <span class="block-slideshow__item-offer">eBipone </span>
-                        <span class="block-slideshow__item-title">
-                            Your Best Online<br />
-                            Shoping Mall
-                        </span>
-                        <span class="block-slideshow__item-details">
-                            
-                        </span>
-                        <span class="block-slideshow__item-button">Shop Now</span>
-                    </a> 
-                    -->
+                   
                 </div>
             </div>
         </div>
     </div>
 
-        <!-- SHOP SECTION -->
+
 
         <div class="block-space block-space--layout--divider-nl"></div>
         <div class="block block-brands block-brands--layout--columns-8-full">
 
-            <!-- Shop By Brand Are Start here -->
+
 
             <div class="container">
                 <h6 class="mb-2">Shop by stores</h6>   <hr>
@@ -87,12 +73,12 @@
                               
                             </div>
                         </div>
+                        
                         @endforeach
+
 			<div class="col-lg-2 col-sm-4 col-md-3 col-4 mb-3" >
                             <div class="card rounded" style="min-height: 160px;padding: 10px 0;;">
                                 <a href="{{route('all.shop')}}" class="block-brands__item-link" style="padding: 5px 0px;">
-
-                                    {{-- <img src="{{asset('public/media/find more.jpg')}}" class="card-img-top" style="width: 80%;height: 140px;margin-left: 10%;"> --}}
 
                                     <div class="card-body ">
                                         
